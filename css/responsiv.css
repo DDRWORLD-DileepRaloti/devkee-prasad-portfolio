@@ -1,0 +1,230 @@
+@media (max-width:1400px) {
+   
+    section#About .right .image-box{
+        height: 600px;
+    }
+    section#About .right .image-box img#im1{
+        height: 81%;
+    }
+    #home .img-box{
+        width: 100%;
+        padding: 0%;
+    }
+    section#home .container img{
+        width: 80%;
+         height: 80%;
+    }
+
+}
+@media (max-width:1200px) {
+    header .container{
+        flex-direction: column;
+        padding: 10px 0 0 0;
+    }
+    section#About .right .image-box{
+        height: 500px;
+    }
+    section#home .container img{
+        width: 85%;
+         height: 85%;
+    }
+
+}
+
+
+
+
+@media (max-width:1000px) {
+    section#home .container .hero-box{
+        padding-left: 30px;
+    }
+    section#home .container .hero-box h3{
+        font-size: 2.5rem;
+    }
+    section#About .right .image-box{
+        height: 500px;
+        width: 100%;
+    }
+    .containerss .content p{
+        display: none;
+    }
+    .containerss .content a{
+        margin: 5px ;
+    }
+    section#About .right .image-box img#im1{
+        height: 81%;
+        width: 80%;
+        object-fit:cover;
+        object-position: center;
+    }
+    section#home .container img{
+        width: 60%;
+         height: 60%;
+         margin-top:70px !important  ;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+    header{
+        height: 105px;
+    }
+    header .container{
+       flex-direction: row;
+       padding: 0% 5px;
+    }
+    header .container nav{
+        position:absolute;
+        top: 100px;
+        width: 100%;
+        left: 0%;
+        background-color: var(--color-secondary);
+    }
+    header .container nav ul{
+        display: none;
+    }
+    header .container nav ul li i{
+        display: inline-block;
+        font-size: 2rem;
+    }
+    header .container nav ul li span{
+        display: none;
+    }
+    header i#open-menu{
+        display: block;
+        margin-top: 12px;
+        font-size: 2.4rem
+    }
+    header i#close-nav{
+        margin-top: 14px;
+        font-size: 2.4rem
+    }
+    section#home .container .hero-box{
+        text-align: center;
+    }
+    section#home .container .hero-box a{
+        display: flex;
+        align-items: center;
+        margin:  auto;
+    }
+    section#home .container img{
+        width: 80%;
+        height: 80%;
+    }
+    section#About .right .image-box{
+        height: 500px;
+    }
+    section#Skills .circle_box .outer{
+        margin: 0% auto;
+        width: 85%;
+    }
+    .timeline::after {
+        left: 31px;
+        }
+        
+        /* Full-width containersss */
+       .timeline .containerss {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        }
+        
+        /* Make sure that all arrows are pointing leftwards */
+       .timeline .containerss::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+        }
+      
+        /* Make sure all circles are at the same spot */
+       .timeline .left::after, .timeline .right::after {
+        left: 15px;
+        }
+        
+        /* Make all right containersss behave like the left ones */
+       .timeline .right {
+        left: 0%;
+        }
+       
+}
+
+@media (max-width:600px) {
+   
+    header .container{
+       flex-direction: row;
+       padding: 0% 5px;
+    }
+    header .container nav{
+        position:absolute;
+        background-color: transparent;
+        width: 100%;
+        left: 0%;
+    }
+    header .container nav ul{
+        display: none;
+        flex-direction: column;
+    }
+    header .container nav ul li{
+        background-color: var(--color-primary);
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: -20px;
+        margin-top: 2px;
+    }
+    header .container nav ul li:hover{
+        background-color: var(--color-secondary);
+    }
+    header .container nav ul li i{
+        display: inline-block;
+        font-size: 2rem;
+    }
+    header .container nav ul li span{
+        display: block;
+    }
+    header i#open-menu{
+        display: block;
+        margin-top: 12px;
+    }
+    header .container nav ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .container nav ul li span{
+        margin-left: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    section#home .container img{
+        width: 90%;
+        height: 90%;
+    }
+    section#Skills .circle_box .outer{
+        margin: 0% auto;
+        width: 95%;
+    }
+    footer .footer-icons i{
+        margin: 2px 3px;
+    }
+    section#edee .section-about{
+        padding: 40px 10px;
+    }
+    
+}
+
+@media (max-width:800px) {
+    section.contact-form form{
+        width: 500px;
+        margin: auto;
+    }
+}
+@media (max-width:600px) {
+    section.contact-form form{
+        width: 98%;
+        margin: auto;
+    }
+}
